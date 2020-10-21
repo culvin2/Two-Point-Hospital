@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+ body, html{
+    height: calc(100% - 2em);
+    margin: 0;
+    background-color: #95AFBC;
+   
+ }
+ #Logo {
+	width : 23vw;
+	height : auto;
+    padding : 1.5vh 6vw 5vh 38vw;
+}
+h2{
+    font-size: 38px;
+    margin-left: 880px;
+    margin-top:-10px;
+    font-style: italic;
+    font-family: roboto;
+}
+.prof{
+    margin-top: -2000px;
+    margin-left: -100px;
+    width: 50%;
+    height: auto;
+}
+.TAITEL{
+    font-size: 35px;
+    font-weight: bold;
+}
+form{
+    border-radius : 70px 70px 70px 70px;
+    padding: 0vh 0vw 20vh 40vw;
+}
+    
+.input {
+    border: 1px solid #707070;
+    border-radius: 40px;
+    height: 3vw;
+    width: 23.4vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    padding-left: 30px;
+    font-weight: 500;
+    margin-left: -55px;
+    
+    
+}

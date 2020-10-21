@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>UAS HCI</title>
+    <link rel='stylesheet' href='SignIn.css'>
+    <link rel='stylesheet' href='SignUp2.css'>
+    <link rel="icon" type="image/png" href="gunung.svg">
+</head>
+
+<body>
+    <header>
+        <a href='Main.html'><img src="Logokecil.svg" id="Logo"></a>
+    </header>
+    <main>
+        <form id="Feedback" method="POST">
+            <div id="Input">
+                <label class="TAITEL">Gender :</label>
+                <div class="radiobutton">
+                    <label class='container'>Male
+                        <input type="radio" checked='checked' name='Gender' value="Male">
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="container">Female
+                        <input type='radio' name='Gender' value="Female">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+
+                <label class="TAITEL">Height :</label>
+                <br>
+                <input class="input" type="text" name="Height" placeholder="Your Height" required>
+                <br>
+                <label class="TAITEL">Weight :</label>
+                <br>
+                <input class="input" type="text" name="Weight" placeholder="Your Weight" required>
+                <br>
+                <label class="TAITEL">Patient Status : </label>
+                <br>
+                <input class="input" type="text" name="Status" placeholder="Bpjs / Prudent/ Manulife/ etc" required>
+                <br>
+            </div>
+        </form>
+        <br>
+        <div class="Agree">
+            <label class="container">I Agree to the Terms of Service
+                <input type="checkbox" checked='checked' required>
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        <a href='javascript:void(0)' id="signup-button">
+            <div class='cta'>Sign Up</div>
+        </a>
+
+    </main>
+</body>
+
+<script src="jquery-3.5.1.min.js"></script>
+<script src="SignUp.js"></script>
+
+</html>

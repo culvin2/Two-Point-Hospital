@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+ body, html{
+    height: calc(100% - 2em);
+    margin: 0;
+    background-color: #95AFBC;
+    background-image: url(Orang.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+ }
+ #Logo {
+	width : 23vw;
+	height : auto;
+    padding : 1.5vh 6vw 5vh 38vw;
+}
+h2{
+    font-size: 30px;
+    margin-left: 120px;
+    margin-top:-210px;
+    font-style: italic;
+}
+.purpose{
+    font-size: 30px;
+    margin-left: 0px;
+    font-weight: 400;
+    font-family: roboto;
+}
+main{
+    margin:10vw 38vw 18vw 35vw;
+}
+.polyclinic{
+    font-size: 29px;
+    margin-left: 0px;
+    font-weight: 400;
+    font-family: roboto;
+  
+}
+.kepentingan{
+  margin-left: -300px;
+}
+.box select {
+    background-color:#6E85C3;
+    color: white;
+    padding: 10px;
+    width: 500px;
+    border: none;
+    font-size: 17px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    margin-left:1px;  
+}
+  .doctor{
+    font-size: 29px;
+    margin-left: 0px;
+    font-weight: 400;
+    font-family: roboto;
+  }
+  .input {
+    border: 1px solid #707070;
+    border-radius: 3px;
+    height: 2vw;
+    width: 26vw;
+    margin-top:0vw;
+    margin-bottom: 3vw;
+    margin-left: 1px;
+    font-weight: 5000;
+    background-color:#6E85C3;
+    font-size: 17px;
+    color:white;
+    border-color:#6E85C3;
+}
+.date{
+  font-size: 29px;
+    margin-left: 0px;
+    font-weight: 400;
+    font-family: roboto;
+}
+.time{
+  font-size: 29px;
+  margin-left: 0px;
+  font-weight: 400;
+  margin-top: -60px;
+  font-family: roboto;
+}
+div.cta{
+	font-size : 40px;
+	font-weight : 950;
+	color:black;
+	text-align: center;
+	height :0px;
+	border-radius : 50px 50px 50px 50px;
+  margin-left: -40px;
+  margin-top: 13px;
+  font-family: roboto;
+}
+a{
+  text-decoration: none;
+}
+
+

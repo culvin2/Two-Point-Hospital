@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+ body, html{
+    height: calc(100% - 2em);
+    margin: 0;
+    background-color: #95AFBC;
+    background-image: url(Orang.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+  
+}
+#Logo {
+	width : 23vw;
+	height : auto;
+    padding : 1.5vh 6vw 5vh 38vw;
+}
+form{
+	
+    border-radius : 70px 70px 70px 70px;
+    padding: 5vh 6vw 5vh 4vw;;
+    
+}
+main{
+    padding: 0vh 0vw 5vh 35vw;
+    margin-top: -50px;
+    font-weight: 500;
+}
+
+.input {
+    border: 1px solid #707070;
+    border-radius: 10px;
+    height: 1.5vw;
+    width: 23.4vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    padding-left: 15px;
+    font-weight: 500;
+}
+img#Next{
+    width:90px;
+    height: auto;
+    margin-left: 220px;
+}
+.TAITEL{
+    font-size: 23px;
+    font-weight: bold;
+}

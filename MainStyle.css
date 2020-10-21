@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+body{
+    margin :0;
+    background-color: #95AFBC;
+    display: grid;
+    font-family: Roboto;
+    
+}
+img#Logo {
+	width : 23vw;
+	height : auto;
+    padding : 1.5vh 6vw 5vh 2vw;
+}
+header{
+	padding: 0;
+	margin : 0;
+	display : grid;
+	grid-template-columns : 40vw 60vw;
+    height :14vh;
+}    
+ul#nav{
+	list-style:none;
+	display : grid;
+	grid-template-columns : repeat(5,20%);
+	margin : 0;
+    padding: 12.5vh 0vh 0vh;
+    font-weight: 800;
+}
+
+.navlink{
+	text-decoration : none;
+	color : black;
+	font-weight : 800;
+    font-size :1.5vw;
+}
+.nav-link :hover ::after{
+    content:'';
+    display: block;
+    border-bottom: 3px solid black;
+    width:50%;
+    margin : auto;
+    padding-bottom: 5px;
+}
+h1 {
+	margin: 6vh 0vw 0vh 8vw;
+	padding:0;
+	font-size :4.5vw;
+}
+h2{
+	margin:-2vh 0vw 0vh 12vw;
+	padding : 0;
+    font-size : 3.5vw;
+}
+p{
+	margin : 6vh 0vw 0vh 2vw;
+    font-size : 28px;
+    font-weight: bold;
+}
+div.cta{
+	margin : 5vh 0vw 0vh 20vw;
+	font-size : 30px;
+	font-weight :600;
+	color:black;
+	background-color:#245DAE;
+	text-align: center;
+	width : 20%;
+	height : 60px;
+	border-radius : 55px 55px 55px 55px;
+    padding-top : 20px;
+}
+div.cta2{
+    margin-top: -1vh;
+	font-size : 20px;
+	font-weight :600;
+	color:black;
+	background-color:#ffffff;
+	text-align: center;
+	width : 55%;
+	height : 40px;
+	border-radius : 50px 55px 50px 55px;
+    padding-top : 10px;
+}
+
+main{
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 60% 30%;
+}
+img#text{
+	width : 35vw;
+	margin: 15vh 5vw 0vh 0vw;
+}
+a{
+    text-decoration: none;
+}
+img#text2{
+	margin-left: 600px;
+	margin-top: 60px;
+}

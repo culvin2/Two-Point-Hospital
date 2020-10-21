@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>UAS HCI</title>
+    <link rel='stylesheet' href='Booking.css'>
+    <link rel="icon" type="image/png" href="gunung.svg">
+</head>
+<header>
+    <a href='Main.html'><img src="Logokecil.svg" id="Logo"></a>
+</header>
+<main>
+    <h2>Booking Appointment</h2>
+    <div class="box">
+        <form id="booking-form">
+            <div class="purpose">Purpose</div>
+            <select class='kepentingan' name="purpose">
+                <option disabled selected hidden>Choose ....</option>
+                <option value="Check Up">Check Up</option>
+                <option value="Consultation">Consultation</option>
+                <option value="Others">Others</option>
+            </select>
+            <div class="polyclinic">Polyclinic</div>
+            <select class="kepentingan" id="select-poli" name="polyclinic">
+                <option disabled selected hidden>Choose ....</option>
+                <option value="General Polyclinic">General Polyclinic</option>
+                <option value="Dental Polyclinic">Dental Polyclinic</option>
+                <option value="Midwifery Polyclinic">Midwifery Polyclinic</option>
+                <option value="physiotherapy Polyclinic">physiotherapy Polyclinic</option>
+                <option value="Laboratory">Laboratory</option>
+            </select>
+            <div class="doctor">Doctor</div>
+            <select class="kepentingan" id="select-doctor" name="doctor">
+                <option disabled selected hidden>Choose polyclinic first ....</option>
+            </select>
+            <div class="date">Date</div>
+            <input class="input" type="date" name="date" placeholder="" required>
+            <div class="time">Time</div>
+            <select class="kepentingan" name="time">
+                <option disabled selected hidden>Choose ....</option>
+                <option value="09.00">09.00</option>
+                <option value="12.00">12.00</option>
+                <option value="13.00">13.00</option>
+                <option value="16.00">16.00</option>
+                <option value="19.00">19.00</option>
+            </select>
+        </form>
+    </div>
+    <a href='javascript:void(0)' id="booking-button">
+        <div class='cta'>Book Now</div>
+    </a>
+</main>
+
+<script src="jquery-3.5.1.min.js"></script>
+<script src="Booking.js"></script>
+
+</html>
